@@ -6,7 +6,7 @@
 #aboutme{
     font-size: 15px;
     font-family: cursive;
-    margin-left: 20px;
+    width: 90%;
     text-align: justify;
     padding: 0;
     
@@ -64,7 +64,7 @@
 
 @media (min-width: 400px){
     #aboutme .contenedor {
-        width: 100%
+        width: 90%
     }
     #aboutme p{
         font-size: 15px
@@ -73,13 +73,13 @@
 
 @media (min-width: 768px){    
     #aboutme .contenedor {
-        width: 70%;
+        width: 90%;
     }
 }
 
 @media (min-width: 1020px){
     #aboutme .contenedor {
-        width: 70%;
+        width: 90%;
     }
 
     #aboutme p{
@@ -89,7 +89,7 @@
 
 @media (min-width: 1500px){    
     #aboutme .contenedor {
-        width: 70%;
+        width: 90%;
     }
     #aboutme p{
         font-size: 20px;
