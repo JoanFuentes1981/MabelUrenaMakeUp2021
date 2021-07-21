@@ -3,11 +3,11 @@
 }
 
 header label{
-	float: left;
+	float: rigth;
 	font-size: 30px;
 	margin: 6px 0;
 	cursor: pointer;
-  width: 60px;
+ 	width: 60px;
 }
 
 .menu{
