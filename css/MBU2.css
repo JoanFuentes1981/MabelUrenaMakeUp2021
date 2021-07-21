@@ -13,13 +13,13 @@ header div.contenedor1{
     width: 40vw;
     height: 20vh;
     margin: auto;
-    margin-top: 10px;
+
+/*    background: red;*/
 }
 
 .contenedor1 img{
-    width: 300px;
-    height: 200px;
-
+    width: 100%;
+    height: 100%;
 }
 
 body{
@@ -28,7 +28,7 @@ body{
 
 .contenedor{
 	width: 450px;
-	margin: auto;
+	margin: auto;	
 }
 
 
@@ -67,9 +67,10 @@ footer .contenedor{
 @media (min-width: 900px){
     .contenedor, .contenedor1, #info{
 		width: 600px;
+/*        background: yellow;*/
     }
 
-
+    
     header div.contenedor1{
         display: flex;
         width: 40vw;
@@ -77,7 +78,6 @@ footer .contenedor{
         margin: auto;
         margin-top: 10px;
     }
-
 }
 
 
