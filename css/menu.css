@@ -3,14 +3,11 @@
 }
 
 header label{
+	float: left;
 	font-size: 30px;
 	margin: 6px 0;
 	cursor: pointer;
-    width: 750px;
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    padding: 30px;
+  width: 60px;
 }
 
 .menu{
@@ -57,8 +54,8 @@ header label{
 		border: none;
         width: 1200px;
 	}
-    
+
 	header label{
 		display: none;
 	}
-}   
+}
