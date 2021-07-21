@@ -66,8 +66,7 @@ footer .contenedor{
 
 @media (min-width: 900px){
     .contenedor, .contenedor1, #info{
-		width: 800px;
-	    	background: red;
+		width: 600px;
     }
 
     
