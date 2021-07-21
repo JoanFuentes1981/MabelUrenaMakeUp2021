@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;500;800&family=Pacifico&display=swap');
+
+
+.group_contact{
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+}
+.contact-information{
+    padding: 10px;
+    padding-top: 0;
+    margin-bottom: 3px;
+    border-bottom: 1px solid #DE423A;
+}
+.contact-information .column__title{
+    font-family: 'Pacifico', cursive;
+    font-weight: 100;
+}
+
+.contact .container--flex{
+    align-items: flex-start;
+}    
+.contact-information p{
+    font-size: .8em;
+}
+.contact-information {
+    margin-right: 3px;
+    border-right: 1px solid #DE423A;
+    border-bottom: none;
+}
+container.column{
+    width: 100%;
+}
+
+.group__title{
+    font-family: 'Pacifico', cursive;
+
+    font-weight: 100;
+    text-align: center;
+    font-size: 1.8em;
+    margin: 30px;
+}
+container.column--50{
+        width: 49%;
+}
+
+.formulario{
+    padding: 10px;
+    padding-top: 0;
+    
+}
+
+.contact-information .social-icon{
+    justify-content: flex-start;
+    margin-bottom: 10px;
+        
+}
+
+.contact-information .social-icon [class*="icon-"]{
+    background: #000;
+    color: white;
+    margin-left: 0;
+    margin-right: 15px;
+}

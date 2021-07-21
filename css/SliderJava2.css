@@ -1,0 +1,110 @@
+/*
+* {
+	box-sizing: border-box;
+}
+*/
+
+.novias--galeria{
+	display: flex;
+	min-height: 100vh;
+	background: #EFC076;
+}
+.container-slider{
+    background: black;
+	width: 100%;
+	max-width: 900px;
+	margin: auto;
+	overflow: hidden;
+	box-shadow: 0 0 0 10px skyblue,
+				0 15px 50px;
+	position: relative;
+
+}
+
+#bienvenidos{
+    text-align: center;
+    padding: 40px;
+    margin: auto;
+}
+
+#bienvenidos h2{
+    padding: 30px;
+}
+
+
+.slider{
+	display: flex;
+	width: 1400%;
+	height: 700px;
+	margin-left: -100%;
+}
+
+.slider__section{
+	width: 100%
+}
+
+.slider__img{
+	display: block;
+	width: 100%;
+	height: 100%;
+	object-fit:contain;
+}
+
+footer{
+    padding: 40px;
+}
+
+.slider__btn{	
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	background: rgba(255, 255, 255, 0.7);
+	top: 50%;
+	transform: translateY(-50%);
+	font-size: 30px;
+	font-weight: bolder;
+	font-family: monospace;
+	text-align: center;
+	border-radius: 50%;
+	cursor: pointer;
+}
+
+.slider__btn:hover{
+	background: #fff;
+}
+
+.slider__btn--left{
+	left: 10px;
+}
+
+.slider__btn--rigth{
+	right: 10px;
+
+}
+
+@media (min-width: 480px){
+    .slider{
+        height: 200px;
+    }
+    .container-slider{
+        width: 300px;
+    }   
+}
+
+@media (min-width: 720px){
+    .slider{
+        height: 400px;
+    }
+    .container-slider{
+        width: 680px;
+    }   
+}
+
+@media (min-width: 1024px){
+    .slider{
+        height: 900px;
+    }
+    .container-slider{
+        width: 800px;
+    }   
+}

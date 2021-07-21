@@ -1,0 +1,24 @@
+#info{
+    background: #333;
+    color: #fff;
+    align-content: center;
+    text-align: center;
+    margin: auto;
+}
+
+#info .contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.info-chicas{
+    margin: 20px;
+}
+
+.info-chicas img{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    border: 7px solid #fff;
+}
