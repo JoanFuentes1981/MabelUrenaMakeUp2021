@@ -10,8 +10,8 @@
 
 header div.contenedor1{
     display: flex;
-    width: 40vw;
-    height: 40vh;
+    width: 20px;
+    height: 20px;
     margin: auto;
     margin-top: 10px;
 }
